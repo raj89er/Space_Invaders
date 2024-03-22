@@ -7,8 +7,9 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 # add fuctionality to the close button
-running = true
-while true:
-    for event in_pygame.event.get()
-        if event.type == pygame.quit():
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
             running = False
+
